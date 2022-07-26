@@ -2,6 +2,7 @@ const proxy = {
     'GET /api/user': [
         { id: 1, username: 'Faster', sex: 6 },
         { id: 2, username: 'Stronger', sex: 7 },
+        { id: 2, username: 'Junjie', sex: 8 },
     ],
     'GET /api/user/list': [
         { id: 1, username: 'kenny', sex: 6 },

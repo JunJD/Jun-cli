@@ -1,5 +1,5 @@
 {
-  "name": "webpack11",
+  "name": "yourproject",
   "sideEffects": false,
   "version": "1.0.0",
   "description": "",
@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --config ./build/webpack.dev.js",
     "build": "webpack --config ./build/webpack.prod.js"
   },
-  "author": "maomincoding",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -40,7 +40,7 @@
     "antd": "^4.5.4",
     "axios": "^0.19.2",
     "immutable": "^4.0.0-rc.12",
-    "react": "^16.13.1",
+    "react": "^17.0.1",
     "react-dom": "^16.13.1",
     "react-loadable": "^5.5.0",
     "react-redux": "^7.2.1",

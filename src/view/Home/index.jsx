@@ -30,6 +30,7 @@ const mapDispatchToProps = (dispatch) => {
 
 const Home =(props)=>{
 const { name, list, datalist, handerClick, clickAnimation, flag, getdata } = props;
+//  immutable 对象数组变为正常的数组时
 const newList = datalist.toJS();
   useEffect(() => {
     document.title = 'ReactCli';
@@ -38,14 +39,14 @@ const newList = datalist.toJS();
   return (
       <div className={styled.container}>
           <div className={styled.home}>
-            Hello {name}
+            你好 {name}
           </div>
           <div className={styled.logo}>
               <img src={logo} alt="" />
           </div>
           <div className={styled.tip}>
-            <p className={styled.tips}>This is a plug and play react scaffold.</p>
-            <p className={styled.tips}>You can use it to build projects very quickly.</p>
+            <p className={styled.tips}>这是一个即插即用的反应脚手架.</p>
+            <p className={styled.tips}>您可以使用它快速构建项目.</p>
           </div>
       <List
         bordered
